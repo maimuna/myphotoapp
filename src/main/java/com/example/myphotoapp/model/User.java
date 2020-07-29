@@ -1,6 +1,7 @@
 package com.example.myphotoapp.model;
 
 public class User {
+    private int userID;
     private String name;
     private String address;
     private int age;
@@ -36,5 +37,11 @@ public class User {
         this.age=age;
     }
 
+    public int getUserID() {
+        return userID;
+    }
 
+    public void setUserID(int userID) {
+        this.userID = userID;
+    }
 }
